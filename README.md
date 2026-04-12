@@ -1,2 +1,2 @@
 # DSA-concept
-Here i have noted some concept and question of dsa
+Here i have noted some concept and questions of dsa
