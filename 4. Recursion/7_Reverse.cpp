@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+void reverse(string& str, int i, int j)
+{
+    // base case
+    if (i > j)
+        return ;
+    else
+    {
+        swap(str[i], str[j]);
+        i++;
+        j--;
+        reverse(str, i, j);
+    }
+}
+int main()
+{
+    string str = "abcjkh";
+    int i = 0;
+    int j = str.length() - 1;
+    reverse(str, i, j);
+    cout << "Reverse String : " << str << endl;
+    return 0;
+}
